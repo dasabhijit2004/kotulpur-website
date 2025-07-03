@@ -5,6 +5,7 @@ import Home from './_components/Home'
 import About from './_components/About'
 import Attractions from './_components/Attractions'
 import Direction from './_components/Direction'
+import Highlights from './_components/Highlights'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
       <About />
       <Attractions />
       <Direction />
+      <Highlights />
     </div>
   )
 }
