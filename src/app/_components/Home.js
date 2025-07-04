@@ -16,7 +16,7 @@ const Home = () => {
             Discover the beauty and culture of our town.
           </p>
           <a
-            href="/about"
+            href="#about"
             className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 hover:-translate-y-0.5 transition-all duration-300"
           >
             Explore Now

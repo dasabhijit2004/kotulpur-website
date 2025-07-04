@@ -7,7 +7,7 @@ const Direction = () => {
         <>
             <div className='w-full flex items-center justify-center'>
                 <div className="w-full md:max-w-[80%] min-h-screen flex items-center justify-center p-6 md:p-10 flex-col gap-10">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800 mt-20">
                         How to Reach
                     </h1>
                     <div className='w-full flex flex-col md:flex-row items-center justify-between gap-10'>

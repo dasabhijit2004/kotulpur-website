@@ -7,7 +7,7 @@ const Testimonials = () => {
     return (
         <>
             <div className='flex flex-col items-center justify-center'>
-                <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800'>What People Say</h1>
+                <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800 mt-20'>What People Say</h1>
                 <div className='cards w-[80%] flex justify-between items-center'>
                     <div className='card w-[32%] flex flex-col gap-3 bg-gray-200 p-2 rounded-2xl'>
                         <div className='head flex gap-4 items-center'>

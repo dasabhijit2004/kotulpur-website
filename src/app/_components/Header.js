@@ -47,7 +47,7 @@ const Header = () => {
 
                     {/* Desktop Navigation Menu */}
                     <ul className="hidden md:flex md:flex-row md:items-center md:space-x-6">
-                        <li><Link href="/" className="hover:text-blue-600 transition-colors">Home</Link></li>
+                        <li><Link href="#home" className="hover:text-blue-600 transition-colors">Home</Link></li>
                         <li><Link href="#about" className="hover:text-blue-600 transition-colors">About</Link></li>
                         <li><Link href="#attractions" className="hover:text-blue-600 transition-colors">Attractions</Link></li>
                         <li><Link href="#direction" className="hover:text-blue-600 transition-colors">Directions</Link></li>
@@ -101,7 +101,7 @@ const Header = () => {
                     <ul className="flex flex-col space-y-6">
                         <li>
                             <Link 
-                                href="/" 
+                                href="#home" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >

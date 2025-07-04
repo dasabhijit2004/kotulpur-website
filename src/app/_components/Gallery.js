@@ -26,7 +26,7 @@ const Gallery = () => {
 
   return (
     <div className='flex flex-col items-center justify-center p-3'>
-      <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800'>Glimpses</h1>
+      <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800 mt-20'>Glimpses</h1>
       <div className="relative w-full md:w-[80%] overflow-hidden">
         {/* Container for sliding */}
         <div

@@ -55,7 +55,7 @@ const attractions = [
 const Attractions = () => {
   return (
     <div className="w-full min-h-screen flex items-center justify-center p-6 md:p-10 flex-col bg-gray-50">
-      <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800">
+      <h1 className="text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800 mt-20">
         Nearby Attractions
       </h1>
 

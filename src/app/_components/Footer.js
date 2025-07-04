@@ -27,11 +27,11 @@ const Footer = () => {
                     <div className="flex flex-col gap-2">
                         <h4 className="text-lg font-semibold">Quick Links</h4>
                         <div className="flex flex-col gap-1 text-sm">
-                            <Link href="/" className="hover:text-blue-500">Home</Link>
-                            <Link href="/" className="hover:text-blue-500">About</Link>
-                            <Link href="/" className="hover:text-blue-500">Attractions</Link>
-                            <Link href="/" className="hover:text-blue-500">How to Reach</Link>
-                            <Link href="/" className="hover:text-blue-500">Gallery</Link>
+                            <Link href="#home" className="hover:text-blue-500">Home</Link>
+                            <Link href="#about" className="hover:text-blue-500">About</Link>
+                            <Link href="#attractions" className="hover:text-blue-500">Attractions</Link>
+                            <Link href="#direction" className="hover:text-blue-500">How to Reach</Link>
+                            <Link href="#gallery" className="hover:text-blue-500">Gallery</Link>
                         </div>
                     </div>
 
