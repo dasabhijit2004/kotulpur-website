@@ -10,7 +10,7 @@ const Header = () => {
         <>
             <header className="bg-white text-black p-4 fixed top-0 w-full z-50 shadow">
                 <div className="flex items-center justify-between">
-                    <img src="/logo.png" alt="Logo" className="h-8 w-8 inline-block mr-2" />
+                    <Link href={'/'} className="text-2xl font-bold">Kotulpur</Link>
 
                     {/* Hamburger Button */}
                     <div className="md:hidden">

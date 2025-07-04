@@ -21,9 +21,6 @@ const Gallery = () => {
     return () => clearInterval(interval) // Clean up
   }, [])
 
-  // Split images into groups of 8
-  const currentImages = images.slice(page * 8, page * 8 + 8)
-
   return (
     <div className='flex flex-col items-center justify-center p-3'>
       <h1 className='text-4xl md:text-6xl font-bold mb-10 text-center text-gray-800 mt-20'>Glimpses</h1>
@@ -40,12 +37,12 @@ const Gallery = () => {
               className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 min-w-full"
             >
               {images.slice(i * 8, i * 8 + 8).map((src, index) => (
-                <div key={index} className="relative w-full aspect-[3/4] rounded-lg">
+                <div key={index} className="relative w-full aspect-[3/4] rounded-lg overflow-hidden">
                   <Image
                     src={src}
                     alt={`Gallery Image ${i * 8 + index + 1}`}
                     fill
-                    className="object-cover rounded-lg hover:shadow-lg hover:shadow-gray-300"
+                    className="object-cover rounded-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg hover:shadow-gray-400"
                   />
                 </div>
               ))}
