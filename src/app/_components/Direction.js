@@ -11,7 +11,7 @@ const Direction = () => {
                         How to Reach
                     </h1>
                     <div className='w-full flex flex-col md:flex-row items-center justify-between gap-10'>
-                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl'>
+                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl hover:shadow-gray-500 hover:shadow-lg transform transition-all duration-300'>
                             <FaTrain className='text-white bg-gray-800 p-3 rounded-full w-12 h-12' />
                             <div className='description'>
                                 Arambag and Bishnupur are two nearest railway station on the South Eastern Railway line. Regular trains connect from Howrah, Midnapore, and other major stations.
@@ -21,7 +21,7 @@ const Direction = () => {
                                 <p className='flex gap-2 items-center justify-center'><FaTrainSubway />Multiple trains daily</p>
                             </div>
                         </div>
-                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl'>
+                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl hover:shadow-gray-500 hover:shadow-lg transform transition-all duration-300'>
                             <FaBus className='text-white bg-gray-800 p-3 rounded-full w-12 h-12' />
                             <div className='description'>
                                 State transport and private buses operate regular services from Kolkata, Bankura, and nearby districts to Kotulpur. The bus stand is centrally located in town for services.
@@ -31,7 +31,7 @@ const Direction = () => {
                                 <p className='flex gap-2 items-center justify-center'><FaTrainSubway />Multiple trains daily</p>
                             </div>
                         </div>
-                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl'>
+                        <div className='card w-full md:w-1/4 bg-gray-200 p-6 text-center flex flex-col justify-center items-center gap-5 rounded-2xl hover:shadow-gray-500 hover:shadow-lg transform transition-all duration-300'>
                             <FaCar className='text-white bg-gray-800 p-3 rounded-full w-12 h-12' />
                             <div className='description'>
                                 Well-connected by road networks, Kotulpur is accessible via private vehicles. The roads are in good condition, making for a comfortable journey through rural Bengal.
