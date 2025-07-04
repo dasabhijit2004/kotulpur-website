@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 @keyframes slideInRight {
   0% {
     transform: translateX(100%);

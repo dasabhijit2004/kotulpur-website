@@ -8,6 +8,7 @@ const attractions = [
     desc:
       "Famous for its terracotta temples and Baluchari sarees, Bishnupur is a cultural hub showcasing Bengal's architectural heritage.",
     distance: '30 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/XFpufjebgL8Ss9rb9',
   },
   {
     name: 'Joyrambati',
@@ -15,6 +16,7 @@ const attractions = [
     desc:
       'Birthplace of Sri Sarada Devi, spiritual consort of Ramakrishna Paramahamsa, featuring temples and spiritual retreats.',
     distance: '12 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/EKmiNumigNMt246P6',
   },
   {
     name: 'Kamarpukur',
@@ -22,6 +24,7 @@ const attractions = [
     desc:
       'Birthplace of Sri Ramakrishna Paramahamsa, this spiritual destination attracts devotees from around the world.',
     distance: '15 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/s2cv8Gx1rkQDZZoK7',
   },
   {
     name: 'Susunia Hills',
@@ -29,6 +32,7 @@ const attractions = [
     desc:
       'A popular trekking destination with ancient rock inscriptions and diverse flora and fauna, perfect for nature lovers.',
     distance: '90 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/1C9CSZE8TesRvNHz8',
   },
   {
     name: 'Mukutmanipur',
@@ -36,6 +40,7 @@ const attractions = [
     desc:
       'Home to the second largest earthen dam in India, offering scenic views and boating opportunities on the Kangsabati River.',
     distance: '100 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/eBrFmEZfQRJ5B2iv6',
   },
   {
     name: 'Jhargram',
@@ -43,6 +48,7 @@ const attractions = [
     desc:
       'A former princely state with a royal palace, surrounded by dense forests and tribal villages showcasing rural Bengal.',
     distance: '120 KM from Kotulpur',
+    mapLink: 'https://maps.app.goo.gl/XFpufjebgL8Ss9rb9',
   },
 ];
 
@@ -67,15 +73,25 @@ const Attractions = () => {
             <div className="p-4 flex flex-col gap-2">
               <h4 className="text-xl font-semibold text-gray-900">{item.name}</h4>
               <p className="text-gray-600 text-sm">{item.desc}</p>
-              <p className="flex items-center gap-1 text-gray-500 text-sm mt-2">
-                <FaMapMarkerAlt className="text-red-500" />
-                {item.distance}
-              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1 text-gray-500 text-sm mt-2">
+                  <FaMapMarkerAlt className="text-red-500" />
+                  {item.distance}
+                </div>
+                <a
+                  href={item.mapLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-colors duration-300"
+                >
+                  Get Directions
+                </a>
+              </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </div >
   );
 };
 

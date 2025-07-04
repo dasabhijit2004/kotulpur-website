@@ -48,12 +48,12 @@ const Header = () => {
                     {/* Desktop Navigation Menu */}
                     <ul className="hidden md:flex md:flex-row md:items-center md:space-x-6">
                         <li><Link href="/" className="hover:text-blue-600 transition-colors">Home</Link></li>
-                        <li><Link href="/about" className="hover:text-blue-600 transition-colors">About</Link></li>
-                        <li><Link href="/attractions" className="hover:text-blue-600 transition-colors">Attractions</Link></li>
-                        <li><Link href="/directions" className="hover:text-blue-600 transition-colors">Directions</Link></li>
-                        <li><Link href="/highlights" className="hover:text-blue-600 transition-colors">Highlights</Link></li>
-                        <li><Link href="/testimonials" className="hover:text-blue-600 transition-colors">Testimonials</Link></li>
-                        <li><Link href="/gallery" className="hover:text-blue-600 transition-colors">Gallery</Link></li>
+                        <li><Link href="#about" className="hover:text-blue-600 transition-colors">About</Link></li>
+                        <li><Link href="#attractions" className="hover:text-blue-600 transition-colors">Attractions</Link></li>
+                        <li><Link href="#direction" className="hover:text-blue-600 transition-colors">Directions</Link></li>
+                        <li><Link href="#highlights" className="hover:text-blue-600 transition-colors">Highlights</Link></li>
+                        {/* <li><Link href="#testimonials" className="hover:text-blue-600 transition-colors">Testimonials</Link></li> */}
+                        <li><Link href="#gallery" className="hover:text-blue-600 transition-colors">Gallery</Link></li>
                     </ul>
                 </div>
             </header>
@@ -110,7 +110,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/about" 
+                                href="#about" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
@@ -119,7 +119,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/attractions" 
+                                href="#attractions" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
@@ -128,7 +128,7 @@ const Header = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/directions" 
+                                href="#direction" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
@@ -137,25 +137,25 @@ const Header = () => {
                         </li>
                         <li>
                             <Link 
-                                href="/highlights" 
+                                href="#highlights" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Highlights
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link 
-                                href="/testimonials" 
+                                href="#testimonials" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
                                 Testimonials
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link 
-                                href="/gallery" 
+                                href="#gallery" 
                                 className="block text-lg font-medium text-black hover:text-blue-600 transition-colors py-2"
                                 onClick={() => setIsOpen(false)}
                             >
