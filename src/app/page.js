@@ -9,6 +9,7 @@ import Highlights from './_components/Highlights'
 // import Testimonials from './_components/Testimonials'
 import Gallery from './_components/Gallery'
 import Footer from './_components/Footer'
+import BackToTop from './_components/BackToTop'
 
 const Page = () => {
   return (
@@ -46,6 +47,8 @@ const Page = () => {
       <section id="footer">
         <Footer />
       </section>
+
+      <BackToTop />
     </div>
   )
 }
