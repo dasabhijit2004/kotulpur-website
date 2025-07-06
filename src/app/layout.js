@@ -10,12 +10,28 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata = {
-  title: "Kotulpur - The Gem of Bankura",
-  description: "Visit Kotulpur, the heart of Bankura, West Bengal. Learn about its culture, festivals, historical sites, and breathtaking natural beauty. Perfect for travelers seeking offbeat Bengal destinations.",
-  icons: {
-    icon: "/logo.png"
-  }
+  title: "Kotulpur | Discover Culture, Nature & Community",
+  description:
+    "Explore Kotulpur – a vibrant town rich in culture, history, and natural beauty. Stay updated with local news, events, and community services all in one place.",
+  keywords:
+    "Kotulpur, Kotulpur Bankura, Kotulpur tourism, Kotulpur culture, local news Kotulpur, Kotulpur community website",
+  openGraph: {
+    title: "Kotulpur | Discover Culture, Nature & Community",
+    description:
+      "Your gateway to Kotulpur – find local updates, cultural highlights, and explore the beauty of this historic town in Bankura.",
+    url: "https://kotulpur-website.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "https://kotulpur-website.vercel.app/hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Kotulpur - Culture, Nature & Community",
+      },
+    ],
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
